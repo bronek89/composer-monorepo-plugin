@@ -207,10 +207,7 @@ class Build
                 }
 
                 if (isset($composerJson['autoload-dev'])) {
-                    $monorepoedComposerJson['autoload'] = array_merge_recursive(
-                        $monorepoedComposerJson['autoload'],
-                        $composerJson['autoload-dev']
-                    );
+                    $monorepoedComposerJson['autoload-dev'] = $composerJson['autoload-dev'];
                 }
 
                 if (isset($composerJson['require'])) {
