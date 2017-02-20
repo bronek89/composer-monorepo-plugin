@@ -1,6 +1,7 @@
 {
     "name": "bronek89/composer-monorepo-plugin",
     "license": "MIT",
+    "description": "Composer plugin to handle monorepo.",
     "type": "composer-plugin",
     "require": {
         "composer-plugin-api": "^1.0"
